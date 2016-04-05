@@ -4,6 +4,6 @@ function Start () {
 
 }
 
-function Update () {
-
+function FixedUpdate () {
+    transform.position.x += .05;
 }
